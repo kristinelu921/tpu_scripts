@@ -21,9 +21,9 @@ ep=1000
 cls_tok=0 #TODO
  
 
-WANDB_API_KEY='9eb0460c35413f1bea6ef15e2cd1524f83512af2'
-WANDB_ENTITY='kaynelu921-massachusetts-institute-of-technology'
-WANDB_PROJECT='klu_jit'
+WANDB_API_KEY=1 #TODO: add your own api key
+WANDB_ENTITY='kaynelu921-massachusetts-institute-of-technology' #TODO: add your own entity
+WANDB_PROJECT='klu_jit' #TODO: add your own project name
 
 now=`date '+%Y%m%d_%H%M%S'`
 #USE YOUR ORGANIZATION WITHOUT THE -org AT THE END
