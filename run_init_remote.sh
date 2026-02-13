@@ -44,6 +44,7 @@ python3 -m pip install hf_transfer
 python3 -m pip install gcsfs
 python3 -m pip install tmpfs
 export HF_HUB_ENABLE_HF_TRANSFER=1
+export HF_TOKEN=1 #TODO: add your own token
 "
 
 
@@ -54,6 +55,9 @@ gcloud compute tpus tpu-vm ssh $VM_NAME --zone $ZONE \
 export JAX_PLATFORMS=tpu
 python3 -c 'import jax; print(jax.device_count())'
 python3 -c 'import jaxlib; print(jaxlib.__version__)'
+export WANDB_API_KEY=1 #TODO: add your own api key
+export WANDB_ENTITY=1 #TODO: add your own entity
+export WANDB_PROJECT=1 #TODO: add your own project name
 
 "
 
